@@ -1,0 +1,135 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Roboto&display=swap');
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
+.main-login{
+  width: 100vw;
+  height: 100vh;
+  background: rgb(23, 22, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-login {
+  width: 50vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+}
+
+.left-login > h1{
+  font-size: 3vw;
+  color: #ffa600;
+  width: 70vw;
+  font-size: 28px;
+  align-items:flex-end;
+}
+
+ 
+
+
+
+.right-login{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-login{
+  width: 60%;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background: rgb(33, 31, 31);
+  border-radius: 10px;
+  box-shadow: 0px 10px 40px (#00000056);
+}
+
+.card-login >h1 {
+  color: #ffa600;
+  font-weight: 800;
+  margin: 0;
+}
+
+.textfield{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 8px 8px;
+}
+
+
+
+.texto{
+  width: 100%;
+  padding: 16px 0px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  background: rgb(46, 40, 40);
+  box-shadow: 0px 10px 40px (#00000056);
+  align-items: center;
+}
+
+
+.escreva{
+  color: aliceblue;
+  
+}
+
+
+.btn-login{
+  width: 100%;
+  padding: 16px 0px;
+  margin: 20px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #000000;
+  left: 2px;
+  background: #ffa600;
+
+}
+
+.textfield > input::placeholder{
+  color: cornsilk;
+}
+
+
+
+.escreva{
+  color: #ffa600;
+}
+
+b{
+  color: #ffa600;
+  margin: 20px;
+  font-size: 30px;
+}
+
+h1{
+ color: #ffa600 ;
+ font-size: 20px;
+
+}
+
